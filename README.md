@@ -15,12 +15,13 @@ to confirm that you have successully installed and setup the tool run:
 
 
 ### Git
-#####Mac users 
-will have git already installed,
+##### Mac users 
+You will have git already installed,
 
-#####Windows users 
+##### Windows users 
 Goto https://git-scm.com/download/win and run the installer that is downloaded
 
+##### Test
 You can then confirm that you have git installed by typing `git --version`
 
 ### ngrok
@@ -48,7 +49,7 @@ Homebrew package manager will be required to install some tools, if you don't al
 
 ## PHP
 
-#####Mac users 
+##### Mac users 
 You should have PHP installed by default, you will need at least version 5.6 (Bundled with OSX 10.12 or later)
 
 You can check your version by running `php -v` in the terminal.
@@ -65,7 +66,7 @@ You will also need composer the PHP package manager, install this with:
 `brew install composer`
 
 
-#####Windows users:
+##### Windows users:
 Goto http://windows.php.net/download and download the latest version (7.1) Select the `VC14 x64 Thread Safe` build and download the zip file.
 
 You will also need the Visual Studio C++ Redistributabel VS2015 Installed from https://www.microsoft.com/en-us/download/details.aspx?id=48145 Download and run the x64 version
