@@ -37,7 +37,7 @@ Test that your ngrok configuration is correct run:
 `ngrok http 8000 --subdomain janedoe` Replace janedoe with the name of your subdomain 
 
 you should see a screen like this:
-![ngroksetupok](https://github.com/nexmo-community/Voice_Workshop/raw/images/ngrsetupok.png)
+![ngroksetupok](https://raw.githubusercontent.com/nexmo-community/Voice_Workshop/master/images/ngroksetupok.png)
 
 ### Homebrew (Mac users only)
 
