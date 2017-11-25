@@ -42,6 +42,7 @@ you should see a screen like this:
 ### Homebrew (Mac users only)
 
 Homebrew package manager will be required to install some tools, if you don't already have brew installed then do so by running:
+
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 
