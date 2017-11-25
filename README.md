@@ -145,6 +145,9 @@ Stop the PHP Applicaton, you can leave the ngrok window running
 move into the Node application folder
 `cd ../Node_SimpleTalk`
 
+Install the required packages listed in the package.json 
+`npm install`
+
 Start the node app
 
 `node ./server.js` 
