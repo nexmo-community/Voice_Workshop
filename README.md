@@ -119,6 +119,9 @@ Link that number to your applicaiton
 Switch into the PHP Simple Talk app
 `cd PHP_SimpleTalk`
 
+Install the required packages listed in the composer.json 
+`composer install`
+
 Run the server
 `php -S localhost:8000 -t ./`
 
