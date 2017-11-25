@@ -1,0 +1,11 @@
+{
+  "name": "SimpleTalk",
+  "version": "1.0.0",
+  "description": "Simple Talk TTS App",
+  "main": "index.js",
+  "author": "Sam Machin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.2",
+  }
+}
