@@ -8,34 +8,36 @@ In order to get make the most effective use of the time we have there are a numb
 ## Basic VAPI Tooling
 
 ### Nexmo CLI Tool
-You will require the nexmo cli tool installed on your laptop please follow the instructions at [https://github.com/nexmo/nexmo-cli] to install it.
+You will require the nexmo cli tool installed on your laptop please follow the instructions at https://github.com/nexmo/nexmo-cli to install it.
 
 to confirm that you have successully installed and setup the tool run:
 `nexmo balance` in your terminal/command prompt
 
 
 ### Git
-Mac users will have git already installed,
+#####Mac users 
+will have git already installed,
 
-Windows users goto [https://git-scm.com/download/win] and run the installer that is downloaded
+#####Windows users 
+Goto https://git-scm.com/download/win and run the installer that is downloaded
 
 You can then confirm that you have git installed by typing `git --version`
 
 ### ngrok
-VAPI uses webhooks therefore you will need to be able to expose the local development servers on your laptop to the internet, the best tool for doing this is ngrok, you need to signup for an account and download the tool from [https://ngrok.com/]
+VAPI uses webhooks therefore you will need to be able to expose the local development servers on your laptop to the internet, the best tool for doing this is ngrok, you need to signup for an account and download the tool from https://ngrok.com/
 
 You will also need to signup to a paid plan hte basic plan is more than sufficient for what we will be doing but you will each need your own subscription its $60 per year and should be a reasonable business expense, the free tier is not suitable as you get a new hostname each time you connect and this wastes far to much time reconfiguring applications.
 
-Once you have signed up to the paid plan you need to configre a reserved domain name at [https://dashboard.ngrok.com/reserved] we reccomend something like your name eg `janedoe.ngrok.io` You can leave the region as United States.
+Once you have signed up to the paid plan you need to configre a reserved domain name at https://dashboard.ngrok.com/reserved we reccomend something like your name eg `janedoe.ngrok.io` You can leave the region as United States.
 
-Get your authtoken from [https://dashboard.ngrok.com/auth] and configure it on your machine with the instructions on that page.
+Get your authtoken from https://dashboard.ngrok.com/auth and configure it on your machine with the instructions on that page.
 
 Test that your ngrok configuration is correct run:
 
 `ngrok http 8000 --subdomain janedoe` Replace janedoe with the name of your subdomain 
 
 you should see a screen like this:
-[ngroksetupok]: https://github.com/nexmo/SEWorkshop/raw/images/ngrsetupok.png 
+![ngroksetupok](https://github.com/nexmo/Voice_Workshop/raw/images/ngrsetupok.png)
 
 ### Homebrew (Mac users only)
 
@@ -43,9 +45,10 @@ Homebrew package manager will be required to install some tools, if you don't al
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 
-### PHP
+## PHP
 
-Mac users: should have PHP installed by default, you will need at least version 5.6 (Bundled with OSX 10.12 or later)
+#####Mac users 
+You should have PHP installed by default, you will need at least version 5.6 (Bundled with OSX 10.12 or later)
 
 You can check your version by running `php -v` in the terminal.
 
@@ -61,10 +64,10 @@ You will also need composer the PHP package manager, install this with:
 `brew install composer`
 
 
-Windows users:
-Goto [http://windows.php.net/download] and download the latest version (7.1) Select the `VC14 x64 Thread Safe` build and download the zip file.
+#####Windows users:
+Goto http://windows.php.net/download and download the latest version (7.1) Select the `VC14 x64 Thread Safe` build and download the zip file.
 
-You will also need the Visual Studio C++ Redistributabel VS2015 Installed from [https://www.microsoft.com/en-us/download/details.aspx?id=48145] Download and run the x64 version
+You will also need the Visual Studio C++ Redistributabel VS2015 Installed from https://www.microsoft.com/en-us/download/details.aspx?id=48145 Download and run the x64 version
 
 Extract the php zip to `C:\php` (reccomended path)
 
@@ -76,12 +79,12 @@ Add `C:\php`
 If all the above has been completed successfuly you can run `php -v` at the command prompt and you should see confirmation of version 7.1
 
 You will also need composer the php package manager,
-Goto [http://getcomposer.org/download] To download and run the Composer_setup.exe
+Goto http://getcomposer.org/download To download and run the Composer_setup.exe
 
-### Node.js
+## Node.js
 
 You should already have Node.js installed as part of the installation of the Nexmo CLI, if not goto 
-[https://nodejs.org/en/download/]
+https://nodejs.org/en/download/
 
 Download & run the relevent installer from there
 
@@ -109,7 +112,7 @@ Buy the Number
 Link that number to your applicaiton
 `nexmo link:app [NUMBER] [APP ID]`
 
-### Test the PHP App
+## Test the PHP App
 
 Switch into the PHP Simple Talk app
 `cd PHP_SimpleTalk`
@@ -130,7 +133,7 @@ Now call the number you purchased and linked earler and you should hear "Hello W
 
 Congratulations Your PHP Environment is now up and running.
 
-### Test the Node App
+## Test the Node App
 
 Stop the PHP Applicaton, you can leave the ngrok window running
 
