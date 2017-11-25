@@ -1,4 +1,4 @@
-# SE Workshop - London Dec 2017
+# Nexmo Voice Workshop 
 
 In order to get make the most effective use of the time we have there are a number of pre-requisits to make sure that you are able to participate fully in the workshop. We will cover 2 scenarios in 2 different languages therefore you need these setup on your laptop before hand along with some basic tooling, we will cover:
 
