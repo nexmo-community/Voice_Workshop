@@ -150,7 +150,7 @@ Install the required packages listed in the package.json
 
 Start the node app
 
-`node ./server.js` 
+`node ./index.js` 
 
 Again open a browser and goto `https:\\[YOURNAME].ngrok.io` You should see a page that says "Node Simple Talk"
 
