@@ -1,0 +1,17 @@
+{
+  "name": "Websocket",
+  "version": "1.0.0",
+  "description": "Webocket App",
+  "main": "index.js",
+  "author": "Sam Machin",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "4.16.2",
+    "express-ws": "^3.0.0",
+    "is-buffer": "^1.1.6",
+    "speaker": "^0.4.0",
+    "tonegenerator": "^0.3.0",
+    "waveheader": "0.0.2"
+  }
+}

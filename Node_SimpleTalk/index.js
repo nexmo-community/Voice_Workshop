@@ -6,7 +6,6 @@ app.use(bodyParser.json());
 
 //Serve a Main Page
 app.get('/', function(req, res) {
-    console.log(req.body);
     res.send("Node Simple Talk");
 });
 
